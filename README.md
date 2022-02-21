@@ -1,17 +1,14 @@
-# 🌱 Agricultural N<sub>2</sub>O flux Predictor App
+# 🌱 Patient Survival Prediction App
 
-![](https://github.com/Retinpkumar/Agricultural-N2O-Predictor-App/blob/main/images/app_recording.gif)  
+![](https://github.com/Retinpkumar/PatientSurvivalPrediction/blob/main/saved_files/images/app_recording.gif)  
 [Visit the app](https://agricultural-n2o.herokuapp.com/)
 
-The app predicts the amount of Agricultural Nitrous Oxide flux released into the atmosphere from intensively managed cropping systems.
+The app predicts whether a patient admitted to a hospital will survive or not.
 
 ---
 
 
 ## Motivation
-Nitrous Oxide is one of the potent greenhouse gas that is accumulating in the atmosphere at extraordinary rates. This can be largely attributed to intensification of agricultural cropping systems where the cultivated soil contribute almost 60% of the agricultural flux.
-
-Though there were previous attempts at identifying and quantifying the agricultural Nitrous Oxide flux, these attempts could only predict the results with an R2-score ranging from 25-40%. The model used in this app is aimed at outperforming the previous models and has been able to succesfully produce the results with almost 78% R2-score.
 
 
 
@@ -22,9 +19,9 @@ Hence, I have used an explainable AI tool known as "SHAP" for understanding the 
 
 
 ## Challenges faced
-* The data that quantified Nitrous Oxide flux was heavily right skewed and also contained few negative values.  
-* The data for Water frontage pore space, Ammonia and Nitrate had some values missing.  
-* Vegetation data was highly imbalanced with almost 84% of the data were recorded for Corn. Data for Wheat and Soy constituted only about 8.5 and 7.5% each.
+* The dataset had more than 150 features and 150000+ observations
+* There were lot of missing values in the dataset.
+* The target feature was highly imbalanced and required the usage of sampling techniques.
 
 
 
@@ -33,9 +30,6 @@ The app was built using Python3.8 and with the help of Streamlit library.
 Other major libraries used include Numpy, Pandas, Matplotlib, Scikit-learn and Shap.  
 The app is currently deployed on heroku.  
 
-
-## High level overview
-![](https://github.com/Retinpkumar/Agricultural-N2O-Predictor-App/blob/main/images/app_working.png)
 
 ## Running the app locally
 * Inside a new directory clone the files from the repo using  
