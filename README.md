@@ -15,7 +15,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#motivation"> ➤ Motivation </a></li>
-    <li><a href="folder_structure"> ➤ Folder Structure </a></li>
+    <li><a href="#structure"> ➤ Folder Structure </a></li>
     <li><a href="#model_used"> ➤ Model used </a></li>
     <li><a href="#challenges"> ➤ Challenges faced </a></li>
     <li><a href="#build"> ➤ Building the app </a></li>
@@ -38,7 +38,9 @@ or not.
 
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
-<h2 id='folder_structure'> 📂 Folder Structure </h2>
+
+<h2 id='structure'> 📂 Folder Structure </h2>
+
 
 ```
 PatientSurvivalPrediction
