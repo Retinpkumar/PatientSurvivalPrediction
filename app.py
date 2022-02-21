@@ -9,7 +9,7 @@ from PIL import Image
 
 # page settings
 st.set_page_config(page_title="Patient Survival Prediction App",
-                page_icon="❤",
+                page_icon="🚑",
                 layout="wide")
 
 curr_path = os.path.dirname(os.path.realpath(__file__))
