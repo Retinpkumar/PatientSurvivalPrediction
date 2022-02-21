@@ -61,8 +61,7 @@ Accurate assessment of mortality risk of the patients at the time of admission
 has to be made inorder to determine the medical resources required for the patient.
 This app predicts whether a patient admitted to a hospital has a high risk of mortality
 or not.
-"""
-    
+""")
 if submit_val:
     # input transformation
     apache_2_bodysystem_dict = {
