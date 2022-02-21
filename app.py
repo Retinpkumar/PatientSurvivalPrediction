@@ -56,7 +56,12 @@ with st.form("Prediction_form"):
     
 st.sidebar.markdown("<h2 class='sidehead' align='center'><style> .sidehead {color:red; background:white; border-radius: 5px;}</style> Patient Survival Prediction App</h2>", unsafe_allow_html=True)
 st.sidebar.markdown("<h2>About the app</h2>", unsafe_allow_html=True)
-st.sidebar.write("The app predicts whether a person admitted to a hospital will survive or not.")
+st.sidebar.write("""
+Accurate assessment of mortality risk of the patients at the time of admission
+has to be made inorder to determine the medical resources required for the patient.
+This app predicts whether a patient admitted to a hospital has a high risk of mortality
+or not.
+"""
     
 if submit_val:
     # input transformation
