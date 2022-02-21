@@ -4,7 +4,7 @@
 <img src="https://github.com/Retinpkumar/PatientSurvivalPrediction/blob/main/saved_files/images/app_recording.gif">
 </div>
 
-<h3 align='center'> This app predicts whether a patient admitted to a hospital has a high risk of mortality or not. </h3>
+<h3 align='justify'> This app predicts whether a patient admitted to a hospital has a high risk of mortality or not. </h3>
 
 <div align='center'>
 <a href="https://patient-survival-prediction.herokuapp.com/" align='center'> Visit the app </a>
@@ -85,20 +85,31 @@ PatientSurvivalPrediction
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <h2 id="model_used"> 💻 Model Used </h2>
-The app uses a machine learning model known as "Random Forest Regressor" for making the prediction. Random Forest belongs to tree based ensemble models category and hence it is tough to interpret the final output of the model. 
-Hence, I have used an explainable AI tool known as "SHAP" for understanding the model and interpreting the output.
+
+The app uses a machine learning model known as "Random Forest Regressor" for making the prediction. Random Forest belongs to tree based ensemble models category and hence it is tough to interpret the final output of the model.  
+
+Hence, I have used an explainable AI tool known as "SHAP" for understanding the model and interpreting the output.  
+
+<img src="https://github.com/Retinpkumar/PatientSurvivalPrediction/blob/main/saved_files/plots/feature_contribution.png">
+
+Check the app for more detailed explanation of the model and the predicted output.
 
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <h2 id="challenges"> 🧩 Challenges faced </h2>
-* The dataset had 186 features and most of them were correlated.
-* There were lot of missing values in the dataset and majority of the features had more than 50% missing values.
-* The target feature was highly imbalanced with data corresponding to hospital deaths constituting only about 8.63% of the entire data. This required the usage of sampling techniques.
+
+* The dataset had 186 features and most of them were correlated.  
+
+* There were lot of missing values in the dataset and majority of the features had more than 50% missing values.  
+
+* The target feature was highly imbalanced with data corresponding to hospital deaths constituting only about 8.63% of the entire data. This required the usage of sampling techniques.  
+
 * The dataset had lots of outliers as well.
 
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <h2 id="build"> 📚 Building the app </h2>
+
 The app was built using Python3.8 and with the help of Streamlit library.  
 Other major libraries used include:
 <ul>
@@ -113,11 +124,15 @@ The app is currently deployed on Heroku.
 ![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 <h2 id="run"> 💾 Running the app locally </h2>
+
 * Inside a new directory clone the files from the repo using  
 <code> https://github.com/Retinpkumar/PatientSurvivalPrediction</code>  
+
 * Create a new virtual environment and activate it.
+
 * Open the terminal and install the libraries and dependancies using  
 <code> pip install -r requirements.txt </code>  
+
 * Start and run the app by entering the code given below in the terminal  
 <code> streamlit run app.py </code>
 
