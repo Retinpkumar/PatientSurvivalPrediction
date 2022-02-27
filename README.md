@@ -47,7 +47,6 @@ PatientSurvivalPrediction
 |
 |—— .streamlit
 |—— saved_files
-|    |
 |    |—— data
 |    |    |—— Data Dictionary.csv
 |    |    |—— Dataset.csv
